@@ -1,0 +1,48 @@
+{
+  "name": "helvetiarockt",
+  "version": "1.0.0",
+  "description": "A custom theme for HelvetiaRockt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salamalala/helvetiaRockt"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nina Regli",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-latest": "^6.24.1",
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "modularscale-sass": "^3.0.8",
+    "postcss-clean": "^1.1.0",
+    "postcss-custom-media": "^7.0.7",
+    "postcss-easy-import": "^3.0.0",
+    "webpack": "^4.26.1",
+    "webpack-stream": "^5.1.1"
+  },
+  "browserslist": [
+    "ie 11",
+    "> 1%",
+    "last 4 versions"
+  ],
+  "dependencies": {
+    "css-vars-ponyfill": "^1.15.3",
+    "natives": "^1.1.6",
+    "normalize.css": "^8.0.1",
+    "object-fit-images": "^3.2.4"
+  }
+}

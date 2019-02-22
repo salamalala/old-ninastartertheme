@@ -1,0 +1,41 @@
+{% block html_head_container %}
+
+{% include 'html-head.twig' %}
+
+{% endblock %}
+
+	<body class="{{body_class}}" data-template="base.twig">
+		<a class="skip-link screen-reader-text" href="#content">{{ _e( 'Skip to content') }}</a>
+
+		<header class="site-header" >
+
+			{% block header %}
+				<h1 class="site-header__logo">
+          <a href="{{site.url}}" rel="home" alt="{{site.name}}">
+            {% include 'svg/logo.svg.twig' %}
+          </a>
+        </h1>
+			{% endblock %}
+
+		</header>
+
+		<!-- needs #content in order to skip here -->
+    <main id="content" role="main" class="main">
+
+			{% block content %}
+				{{ post.content }}
+			{% endblock %}
+
+		</main>
+
+		{% block footer %}
+
+			<footer id="footer" class="footer">
+				{% include 'footer.twig' %}
+			</footer>
+
+			{{ function('wp_footer') }}
+		{% endblock %}
+		
+	</body>
+</html>
