@@ -1,0 +1,47 @@
+// Modular Scale
+$modularscale: (
+  // define 0 as otherwise it doesnt take smalles ratio,
+  0em: (
+    base: 1em,
+    ratio: 1.2,
+  ),
+  48em: (
+    base: 1em,
+    ratio: 1.25,
+  )
+);
+
+
+// Breakpoints
+/* ===== == = === 20em (320px) === = == ===== */
+$screen-xs: "(min-width: 20em)";
+/* ===== == = === 37.5em (480px) === = == ===== */
+$screen-xs-sm: "(min-width: 30em)";
+/* ===== == = === 37.5em (600px) === = == ===== */
+$screen-sm: "(min-width: 37.5em)";
+/* ===== == = === 48em (768px) === = == ===== */
+$screen-md: "(min-width: 48em)";
+/* ===== == = === 56.25em (900px) === = == ===== */
+$screen-md-lg: "(min-width: 56.25em)";
+/* ===== == = === 68.75em (1100px) === = == ===== */
+$screen-lg: "(min-width: 68.75em)";
+/* ===== == = === 75em (1200px) === = == ===== */
+$screen-lg-xl: "(min-width: 75em)";
+/* ===== == = === 81.25em (1300px) === = == ===== */
+$screen-xl: "(min-width: 81.25em)";
+/* ===== == = === 100em (1600px) === = == ===== */
+$screen-xl-xxl: "(min-width: 100em)";
+/* ===== == = === 125em (2000px) === = == ===== */
+$screen-xxl: "(min-width: 125em)";
+/* ===== == = === 125em (2400px) === = == ===== */
+$screen-xxxl: "(min-width: 150em)";
+
+
+//Spacing with modular scales
+$spacing-xs: ms(-2);
+$spacing-sm: ms(-1);
+$spacing-base: ms(0);
+$spacing-md: ms(1);
+$spacing-lg: ms(2);
+$spacing-xl: ms(3);
+$spacing-xxl: ms(4);

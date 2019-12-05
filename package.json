@@ -1,7 +1,7 @@
 {
-  "name": "helvetiarockt",
+  "name": "ninastartertheme",
   "version": "1.0.0",
-  "description": "A custom theme for HelvetiaRockt",
+  "description": "ninastartertheme",
   "repository": {
     "type": "git",
     "url": "https://github.com/salamalala/helvetiaRockt"
@@ -17,8 +17,9 @@
     "@babel/preset-env": "^7.1.6",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.4",
-    "babel-preset-latest": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
     "browser-sync": "^2.26.3",
+    "css-vars-ponyfill": "^1.17.2",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-babel": "^8.0.0",
@@ -27,7 +28,10 @@
     "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.4",
+    "modularscale": "^2.0.1",
     "modularscale-sass": "^3.0.8",
+    "normalize.css": "^8.0.1",
+    "object-fit-images": "^3.2.4",
     "postcss-clean": "^1.1.0",
     "postcss-custom-media": "^7.0.7",
     "postcss-easy-import": "^3.0.0",
@@ -40,9 +44,6 @@
     "last 4 versions"
   ],
   "dependencies": {
-    "css-vars-ponyfill": "^1.15.3",
-    "natives": "^1.1.6",
-    "normalize.css": "^8.0.1",
-    "object-fit-images": "^3.2.4"
+    "natives": "^1.1.6"
   }
 }
