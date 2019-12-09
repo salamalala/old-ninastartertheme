@@ -8,7 +8,7 @@ module.exports = {
         loader: 'babel-loader',
         query: {
           presets: [
-            ['latest', { modules: false }],
+            ['@babel/preset-env'],
           ],
         },
       },

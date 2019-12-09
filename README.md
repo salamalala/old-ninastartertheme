@@ -6,6 +6,6 @@ Based on the Timber Starter Theme, modified for my needs. To use with ACF, Guten
 
 # Starting Steps
 
-- Adjust package.json file
+- Adjust package.json file & style.css file
 - Run npm install
 - Change Browsersync proxy
