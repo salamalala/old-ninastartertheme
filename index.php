@@ -15,5 +15,11 @@
 
 $context = Timber::get_context();
 $context['posts'] = new Timber\PostQuery();
+$templates = array( 'index.twig' );
+$context['current_user'] = new Timber\User();
+
+if ( is_home() ) {
+	array_unshift( $templates, 'front-page.twig');
+}
 
 Timber::render( $templates, $context );
