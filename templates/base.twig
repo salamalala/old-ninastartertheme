@@ -7,10 +7,10 @@
 	<body class="{{body_class}}" data-template="base.twig">
 		<a class="skip-link screen-reader-text" href="#content">{{ _e( 'Skip to content') }}</a>
 
-		<header class="site-header" >
+		<header class="siteHeader" >
 
 			{% block header %}
-				<h1 class="site-header__logo">
+				<h1 class="siteHeader__logo">
           <a href="{{site.url}}" rel="home" alt="{{site.name}}">
       			Here the svg logo
           </a>
@@ -20,7 +20,7 @@
 		</header>
 
 		<!-- needs #content in order to skip here -->
-    <main id="content" role="main" class="main">
+    <main id="content" role="main" class="siteMain">
 
 			{% block content %}
 				{{ post.content }}
@@ -30,7 +30,7 @@
 
 		{% block footer %}
 
-			<footer id="footer" class="footer">
+			<footer id="footer" class="siteFooter">
 				{% include 'footer.twig' %}
 			</footer>
 
