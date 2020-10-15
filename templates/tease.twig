@@ -1,9 +1,28 @@
-<article class="tease tease-{{post.post_type}}" id="tease-{{post.ID}}">
-	{% block content %}
-		<h2 class="h2"><a href="{{post.link}}">{{post.title}}</a></h2>
-		<p>{{post.preview}}</p>
-		{% if post.get_thumbnail %}
-			<img src="{{post.thumbnail.src}}" />
-		{% endif %}
-	{% endblock %}
+<article class="tease">
+
+  {% if post.thumbnail.src %}
+		<div class="tease__imgWrapper">
+			<a href="{{post.link|e('esc_url')}}">
+				{% set post_image = post.thumbnail.src %}
+				<img
+					srcset ="{{ post_image|resize(480)|e('esc_url') }} 480w, {{ post_image|resize(1280)|e('esc_url') }} 1280w, {{ post_image|resize(1920)|e('esc_url') }} 1920w"
+					sizes = "(min-width: 768px) 25vw, 40vw"
+					src = "{{ post_image|e('esc_url')}}"
+					alt= "{{post.title|e('html_attr')}}">
+			</a>
+		</div>
+	{% endif %}
+
+	<div class="tease__text">
+
+		<h2 class="tease__title">
+			<a href="{{post.link|e('esc_url')}}" class="tease__titleLink">{{post.title|e('esc_html')}}</a>
+		</h2>
+
+	  <p class="tease__preview">{{post.preview.length(25)|e('esc_html')}}</p>
+
+		<a href="{{post.link|e('esc_url')}}" class="tease__moreInfo">{{ __('Mehr Infos', 'XXXX')}}</a>
+
+	</div>
+
 </article>
