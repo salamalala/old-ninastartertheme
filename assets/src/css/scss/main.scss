@@ -3,3 +3,13 @@
 @import "normalize.css";
 
 @import "base/variables";
+@import "base/mixins";
+
+@import "base/html";
+@import "base/body";
+
+@import "base/typography";
+
+@import "partials/siteMain";
+@import "partials/siteFooter";
+@import "partials/siteHeader";

@@ -25,3 +25,12 @@ function custom_gutenberg_styles() {
 	// Load the theme styles within Gutenberg.
 	 wp_enqueue_style( 'custom-gutenberg', get_template_directory_uri() .  '/assets/dist/css/editor-styles.css' );
 }
+
+/**
+ * Remove all Gutenberg styles
+ */
+add_action( 'wp_print_styles', 'wps_deregister_styles', 100 );
+
+function wps_deregister_styles() {
+  wp_dequeue_style( 'wp-block-library' );
+}

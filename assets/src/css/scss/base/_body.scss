@@ -1,0 +1,82 @@
+.body {
+  font-size: 18px;
+  // sticky footer:
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  @media #{$screen-lg} {
+    font-size: 22px;
+  }
+
+  @media #{$screen-xl} {
+    font-size: 25px;
+  }
+
+  // breakpoint box
+  // &:before {
+  //   content: var(--bp, 'smaller than xs');
+  //   position: fixed;
+  //   z-index: 99;
+  //   bottom: 1em;
+  //   right: 1em;
+  //   color: var(--bp-color);
+  //   background-color: var(--bp-bg-color);
+  //   border: black solid 2px;
+  //   padding: .5em;
+  // }
+}
+
+
+
+
+//breakpoint variables
+// @media #{$screen-xs} {
+//   :root {
+//     --bp: 'screen-xs';
+//     --bp-color: black;
+//     --bp-bg-color: white;
+//   }
+// }
+//
+// @media #{$screen-sm}  {
+//   :root {
+//     --bp: 'screen-sm';
+//     --bp-color: black;
+//     --bp-bg-color: white;
+//   }
+// }
+//
+// @media #{$screen-md} {
+//   :root {
+//     --bp: 'screen-md';
+//     --bp-color: white;
+//     --bp-bg-color: black;
+//   }
+// }
+//
+// @media #{$screen-lg} {
+//   :root {
+//     --bp: 'screen-lg';
+//     --bp-color: white;
+//     --bp-bg-color: black;
+//   }
+// }
+//
+//
+// @media #{$screen-xl} {
+//   :root {
+//     --bp: 'screen-xl';
+//     --bp-color: black;
+//     --bp-bg-color: white;
+//   }
+// }
+//
+//
+// @media #{$screen-xxl} {
+//   :root {
+//     --bp: 'screen-xxl';
+//     --bp-color: white;
+//     --bp-bg-color: black;
+//   }
+// }
