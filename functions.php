@@ -11,7 +11,9 @@ require get_template_directory() . '/lib/cpt-ct.php';
 require get_template_directory() . '/lib/acf-blocks.php';
 require get_template_directory() . '/lib/acf-blocks-callbacks.php';
 require get_template_directory() . '/lib/editor-blocks.php';
+
 require get_template_directory() . '/lib/login-branding.php';
+require get_template_directory() . '/lib/dashboard.php';
 
 
 
@@ -33,6 +35,3 @@ remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
 remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
 remove_action( 'wp_print_styles', 'print_emoji_styles' );
 remove_action( 'admin_print_styles', 'print_emoji_styles' );
-
-// Hide Admin Bar
-show_admin_bar( false );

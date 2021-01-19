@@ -54,8 +54,8 @@ add_filter( 'login_message', 'nr_login_message' );
 
 function nr_login_message( $message ) {
     if ( empty($message) ){
-      echo '<h2>';
-        return get_option( 'blogname' );
+      echo '<h2 style="margin-bottom: 10px; letter-spacing: 1px;">';
+      echo get_option( 'blogname' );
       echo '</h2>';
     } else {
         return $message;
