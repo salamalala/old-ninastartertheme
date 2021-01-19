@@ -11,6 +11,7 @@ require get_template_directory() . '/lib/cpt-ct.php';
 require get_template_directory() . '/lib/acf-blocks.php';
 require get_template_directory() . '/lib/acf-blocks-callbacks.php';
 require get_template_directory() . '/lib/editor-blocks.php';
+require get_template_directory() . '/lib/login-branding.php';
 
 
 

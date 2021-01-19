@@ -58,7 +58,7 @@ gulp.task('scripts', function() {
 gulp.task('serve', ['sass', 'scripts'], function() {
   browserSync.init({
     injectChanges: true,
-    proxy: "helvetia.local"
+    proxy: "nina-startertheme.local"
   });
 
   gulp.watch(paths.scss,['sass']).on('change', browserSync.reload);
