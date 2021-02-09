@@ -1,2 +1,14 @@
-body #editor .wp-block{max-width:90%!important;margin-left:auto!important;margin-right:auto!important}body #editor .wp-block .alignfull{width:100%;margin-left:auto;margin-right:auto}
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIjxpbnB1dCBjc3MgMT4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsdUJBQXVCLHVCQUF1QixDQUFDLDBCQUEwQixDQUFDLDJCQUEyQixDQUFDLGtDQUFrQyxVQUFVLENBQUMsZ0JBQWdCLENBQUMsaUJBQWlCIiwiZmlsZSI6ImVkaXRvci1zdHlsZXMuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSAjZWRpdG9yIC53cC1ibG9ja3ttYXgtd2lkdGg6OTAlIWltcG9ydGFudDttYXJnaW4tbGVmdDphdXRvIWltcG9ydGFudDttYXJnaW4tcmlnaHQ6YXV0byFpbXBvcnRhbnR9Ym9keSAjZWRpdG9yIC53cC1ibG9jayAuYWxpZ25mdWxse3dpZHRoOjEwMCU7bWFyZ2luLWxlZnQ6YXV0bzttYXJnaW4tcmlnaHQ6YXV0b30iXX0= */
+/*! ninastartertheme v1.0.0 | (c) 2021  | ISC License |  */
+/* line 2, assets/src/css/scss/editor-styles.scss */
+body #editor .wp-block {
+  max-width: 90% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* line 7, assets/src/css/scss/editor-styles.scss */
+body #editor .wp-block .alignfull {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
