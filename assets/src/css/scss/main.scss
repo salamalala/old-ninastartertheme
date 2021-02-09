@@ -1,6 +1,4 @@
-@import "node_modules/modularscale-sass/stylesheets/modularscale.scss";
-
-@import "normalize.css";
+@import 'node_modules/css-reset-and-normalize/scss/reset-and-normalize';
 
 @import "base/variables";
 @import "base/mixins";

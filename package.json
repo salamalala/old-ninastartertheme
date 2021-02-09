@@ -28,9 +28,6 @@
     "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.4",
-    "modularscale": "^2.0.1",
-    "modularscale-sass": "^3.0.8",
-    "normalize.css": "^8.0.1",
     "object-fit-images": "^3.2.4",
     "postcss-clean": "^1.1.0",
     "postcss-custom-media": "^7.0.7",
@@ -44,6 +41,7 @@
     "last 4 versions"
   ],
   "dependencies": {
+    "css-reset-and-normalize": "^2.3.5",
     "natives": "^1.1.6"
   }
 }
