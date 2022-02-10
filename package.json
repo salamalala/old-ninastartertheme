@@ -36,7 +36,7 @@
     "jshint": "2.9.6",
     "jshint-stylish": "2.2.1",
     "lazypipe": "1.0.1",
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.0",
     "object-fit-images": "^3.2.4",
     "webpack": "^4.26.1",
     "webpack-stream": "^5.1.1"
